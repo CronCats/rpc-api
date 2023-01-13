@@ -1,0 +1,84 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "mymasterpersona.testnet",
+      "public_key": "ed25519:4tpJLqXB3igTjgrVGDgTZwRUxVEfJychqKhNiBxeyNEN",
+      "nonce": 3,
+      "receiver_id": "mymasterpersona.testnet",
+      "actions": [
+        {
+          "AddKey": {
+            "public_key": "ed25519:Gfc54kVBz6hSdaP1YBYvjYuEar42teQbjgPs1DCZKMwM",
+            "access_key": {
+              "nonce": 0,
+              "permission": {
+                "FunctionCall": {
+                  "allowance": "10000000000000000000000",
+                  "receiver_id": "personas1.vitalpointai.testnet",
+                  "method_names": [
+                    "getIdentity",
+                    "setIdentity",
+                    "registerPersona",
+                    "getAppIdentity",
+                    "setAppIdentity"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ],
+      "signature": "ed25519:5kyRS2GnGDRee4PLjU73girA7GscxG6priffshMN9pSPHuShSvWm5YCtGtb911z15PYvvtCYVD9u6V8CfKvM7xC3",
+      "hash": "7X1HZCXyeEgQEaLVHR44HAvYr2iGgbGDeYK78eJdP4uP"
+    },
+    "transaction_outcome": {
+      "proof": [
+        {
+          "hash": "EmMN5Jr61SNubSGbRWW2me4uMu27YX2jPBpeUkw6EzWq",
+          "direction": "Right"
+        }
+      ],
+      "block_hash": "7MxQabb5RPUvVrFsmKKt3rXeyb34sqdnm2QSR7B9aphm",
+      "id": "7X1HZCXyeEgQEaLVHR44HAvYr2iGgbGDeYK78eJdP4uP",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "24iBCJKknLSdDgJQJZtKDJrGNWJSQa4RjTyyqVXToxVK"
+        ],
+        "gas_burnt": 210411898170,
+        "tokens_burnt": "21041189817000000000",
+        "executor_id": "mymasterpersona.testnet",
+        "status": {
+          "SuccessReceiptId": "24iBCJKknLSdDgJQJZtKDJrGNWJSQa4RjTyyqVXToxVK"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [
+          {
+            "hash": "7VNrwK2PXUvP6gsJY9BaYR1WS4n88gHWHzkFSfheXT4q",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "7MxQabb5RPUvVrFsmKKt3rXeyb34sqdnm2QSR7B9aphm",
+        "id": "24iBCJKknLSdDgJQJZtKDJrGNWJSQa4RjTyyqVXToxVK",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 210411898170,
+          "tokens_burnt": "21041189817000000000",
+          "executor_id": "mymasterpersona.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

@@ -1,0 +1,148 @@
+{
+    "jsonrpc": "2.0",
+    "result": {
+        "status": {
+            "Failure": {
+                "ActionError": {
+                    "index": 0,
+                    "kind": {
+                        "FunctionCallError": {
+                            "HostError": {
+                                "GuestPanic": {
+                                    "panic_msg": "panicked at 'Account subscription already exists porcupine.testnet', src/lib.rs:110:13"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "transaction": {
+            "signer_id": "porcupine.testnet",
+            "public_key": "ed25519:Hi61wXyAGLwz5VNcSsSbWgrLYioEgH1jJ1ENy2z6TNFn",
+            "nonce": 18,
+            "receiver_id": "dev-1614745326451-4004578",
+            "actions": [
+                {
+                    "FunctionCall": {
+                        "method_name": "add_subscription",
+                        "args": "eyJoYXNoIjpbOTksNTMsOTcsNDgsNDgsNDksNTEsNTMsNTMsMTAxLDQ5LDU2LDU2LDQ4LDUxLDU2LDEwMSwxMDEsNTcsNTUsMTAwLDEwMSw1MCw1NSw5Nyw1NSwxMDAsNTIsMTAxLDk4LDk5LDEwMiwxMDIsNTAsNDgsNTYsOTcsNDksOTksNTcsOTcsNTUsNTAsNTIsNTIsNTcsNTcsNTMsNTAsNTQsNDksMTAxLDU3LDU0LDUzLDUyLDk4LDEwMSwxMDAsMTAxLDEwMSw1Niw1MiwxMDFdLCJyZnIiOiJUT0RPLVRFTVBfUkVGX0NPREUifQ==",
+                        "gas": 300000000000000,
+                        "deposit": "12500000000000000000000000"
+                    }
+                }
+            ],
+            "signature": "ed25519:5dUpd4jKSywMukhVTGcZbW12qxRtPDFxLCQBvkdh5xitzPJ79T1PFWttG7KXzgfSDygQT8tano2guo1pwXw3NuYD",
+            "hash": "D5VENys2qh9uXKZUeowwrskeuhKAP3KYfYx9vDsbcN6j"
+        },
+        "transaction_outcome": {
+            "proof": [
+                {
+                    "hash": "GSPAwqsKhNHkyQgtYP9uf8Qg2kFqCrd4EPhM7eGFMxH6",
+                    "direction": "Right"
+                }
+            ],
+            "block_hash": "FvFbSnCXZnCdspVjSp7JAiY1CoejiBYJ6uyfgo7XiHCp",
+            "id": "D5VENys2qh9uXKZUeowwrskeuhKAP3KYfYx9vDsbcN6j",
+            "outcome": {
+                "logs": [],
+                "receipt_ids": [
+                    "CSinkEcJ9B6DbxpnWyFpqgYX2tzgWPgQbTrqfiBzyp6d"
+                ],
+                "gas_burnt": 2428502342840,
+                "tokens_burnt": "242850234284000000000",
+                "executor_id": "porcupine.testnet",
+                "status": {
+                    "SuccessReceiptId": "CSinkEcJ9B6DbxpnWyFpqgYX2tzgWPgQbTrqfiBzyp6d"
+                }
+            }
+        },
+        "receipts_outcome": [
+            {
+                "proof": [
+                    {
+                        "hash": "27yeJ1GMTiwbN7uWXzR11J7dTNcGfiq6NSbsRxcaooTM",
+                        "direction": "Right"
+                    }
+                ],
+                "block_hash": "FvwtN9bCvw3aswP6diKqNd9ZEjXoRbnjyT1bRaPY99d2",
+                "id": "CSinkEcJ9B6DbxpnWyFpqgYX2tzgWPgQbTrqfiBzyp6d",
+                "outcome": {
+                    "logs": [],
+                    "receipt_ids": [
+                        "p8up8MXZMRQPbWAaLFiBhuMy29BXTozcdqYQhrFVmLi",
+                        "BFc8xKU4FSW6G8LtruQKyQfuV9F4MEenScEBX862wsED"
+                    ],
+                    "gas_burnt": 4563445710347,
+                    "tokens_burnt": "456344571034700000000",
+                    "executor_id": "dev-1614745326451-4004578",
+                    "status": {
+                        "Failure": {
+                            "ActionError": {
+                                "index": 0,
+                                "kind": {
+                                    "FunctionCallError": {
+                                        "HostError": {
+                                            "GuestPanic": {
+                                                "panic_msg": "panicked at 'Account subscription already exists porcupine.testnet', src/lib.rs:110:13"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "proof": [
+                    {
+                        "hash": "ukr6AT1Fsk7qRKNyKybjCcvo3t8ABfN9hstYfdd7PLR",
+                        "direction": "Right"
+                    },
+                    {
+                        "hash": "4Xw9ue1b6zRjZoe7zGuwcAMBhUeZgpQ7Hz5vUypnYKZJ",
+                        "direction": "Right"
+                    }
+                ],
+                "block_hash": "B2HUrCQhSFfh1kmqfTSchfQJDX2FdjKi6eJaSyDx5Tqm",
+                "id": "p8up8MXZMRQPbWAaLFiBhuMy29BXTozcdqYQhrFVmLi",
+                "outcome": {
+                    "logs": [],
+                    "receipt_ids": [],
+                    "gas_burnt": 0,
+                    "tokens_burnt": "0",
+                    "executor_id": "porcupine.testnet",
+                    "status": {
+                        "SuccessValue": ""
+                    }
+                }
+            },
+            {
+                "proof": [
+                    {
+                        "hash": "DUJa8zPZWJdwZ87uVPdniD8zgro3PrvDa7bkcuYftwi8",
+                        "direction": "Left"
+                    },
+                    {
+                        "hash": "4Xw9ue1b6zRjZoe7zGuwcAMBhUeZgpQ7Hz5vUypnYKZJ",
+                        "direction": "Right"
+                    }
+                ],
+                "block_hash": "B2HUrCQhSFfh1kmqfTSchfQJDX2FdjKi6eJaSyDx5Tqm",
+                "id": "BFc8xKU4FSW6G8LtruQKyQfuV9F4MEenScEBX862wsED",
+                "outcome": {
+                    "logs": [],
+                    "receipt_ids": [],
+                    "gas_burnt": 0,
+                    "tokens_burnt": "0",
+                    "executor_id": "porcupine.testnet",
+                    "status": {
+                        "SuccessValue": ""
+                    }
+                }
+            }
+        ]
+    },
+    "id": 123
+}

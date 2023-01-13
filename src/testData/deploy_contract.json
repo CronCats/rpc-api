@@ -1,0 +1,68 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "zodtv.testnet",
+      "public_key": "ed25519:8uRYB3ydx9a5nRpyXzrj5kG3tT4eAsmbaWNGQr1prBrZ",
+      "nonce": 18,
+      "receiver_id": "zodtv.testnet",
+      "actions": [
+        {
+          "DeployContract": {
+            "code": "x9Pu2AvoacMu/F2TzPf9e5oj5Q8+F7mcLRcI7XkX08A="
+          }
+        }
+      ],
+      "signature": "ed25519:5SXGNZzn21yANxrXL1FaGrUqQTUqLBHJ4ay6jYKsCUiibnSaZ1xKXc9Z7FR6BD16yLbWfiDhr9dMPRcgwJycJDn8",
+      "hash": "746uBfSEKzp8KA42VLjyr2ZAd6Go6724EzVkc8Zaa7Qm"
+    },
+    "transaction_outcome": {
+      "proof": [
+        {
+          "hash": "FL1TbCpsEkneUCx2SUbwa3FHy6MtRGj1zYnfHKCtW7Nf",
+          "direction": "Right"
+        }
+      ],
+      "block_hash": "8CvSi61xbS9hVx5FxzD1gzHJ4GyKGjgnqu3ifDiqnHRc",
+      "id": "746uBfSEKzp8KA42VLjyr2ZAd6Go6724EzVkc8Zaa7Qm",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "3hh33yKGrfUJ4mDQLJ1vUgkFJGEerUnsn6EgPUARTZp3"
+        ],
+        "gas_burnt": 495620978234,
+        "tokens_burnt": "49562097823400000000",
+        "executor_id": "zodtv.testnet",
+        "status": {
+          "SuccessReceiptId": "3hh33yKGrfUJ4mDQLJ1vUgkFJGEerUnsn6EgPUARTZp3"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [
+          {
+            "hash": "2rNA7dB55TFj3WREkaTFWKH5Qx5Lq76nedA31d3KaNGL",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "8CvSi61xbS9hVx5FxzD1gzHJ4GyKGjgnqu3ifDiqnHRc",
+        "id": "3hh33yKGrfUJ4mDQLJ1vUgkFJGEerUnsn6EgPUARTZp3",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 495620978234,
+          "tokens_burnt": "49562097823400000000",
+          "executor_id": "zodtv.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

@@ -1,0 +1,176 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "rioblocks.testnet",
+      "public_key": "ed25519:22aKz9JmyHEe7Us31QU4fWcyu27rEdp3KLGFmheSyGfB",
+      "nonce": 5,
+      "receiver_id": "rioblocks.pool.f863973.m0",
+      "actions": [
+        {
+          "FunctionCall": {
+            "method_name": "ping",
+            "args": "e30=",
+            "gas": 100000000000000,
+            "deposit": "0"
+          }
+        }
+      ],
+      "signature": "ed25519:2giPY4eqtwUHyjdN4449zncf8YmUDWiAXywD6t8qjLhQQimA7z3qnGsrfcNWbeyDrvCLrcii4pt1XeaCKHRPhds2",
+      "hash": "52syesGzVJFkssCpu9kotMuJ4wFzvqaFKfVXMnVStNnx"
+    },
+    "transaction_outcome": {
+      "proof": [],
+      "block_hash": "BTmHHihvGoWzXam4eUqh1A88QDCUm3WLjrFnBr5jiSEU",
+      "id": "52syesGzVJFkssCpu9kotMuJ4wFzvqaFKfVXMnVStNnx",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "AphJ96Rw6aS71vznVaDFEHsn7qCCkoSDFwnVQYYFRuUQ"
+        ],
+        "gas_burnt": 2427934415604,
+        "tokens_burnt": "242793441560400000000",
+        "executor_id": "rioblocks.testnet",
+        "status": {
+          "SuccessReceiptId": "AphJ96Rw6aS71vznVaDFEHsn7qCCkoSDFwnVQYYFRuUQ"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [
+          {
+            "hash": "92CoZ7GaeqVeGeXKZmHM37dNe4z4rmkzjtMtc7uKeomA",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "GEruMCYAdoeHTArs3AvTg6sFKHPHFk8E1TsAUzFuLzKX",
+        "id": "AphJ96Rw6aS71vznVaDFEHsn7qCCkoSDFwnVQYYFRuUQ",
+        "outcome": {
+          "logs": [
+            "Epoch 75: Contract received total rewards of 9545137121054040557130032411 tokens. New total staked balance is 84995138515352531786330032411. Total number of shares 76306732031184827481831226194",
+            "Total rewards fee is 856941035945983592681400840 stake shares."
+          ],
+          "receipt_ids": [
+            "FKYKxqApeTBtm26GCYYs4Xp8UYSrH7xhRUpSmR7kQUW",
+            "7mqt2tnLJgPjBgsJYBxqQoZNcWFrB8Yej7B3J1d1Ah6R",
+            "YLmhdALeZiaLdaC3mHCRRNs2W9CdaQgSDPAhEVaMnnh"
+          ],
+          "gas_burnt": 17330172835650,
+          "tokens_burnt": "1733017283565000000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "2wSc8bcdRovPZhadbnW3PZQrgCwUoznFMnjUdczHj9VE",
+            "direction": "Left"
+          },
+          {
+            "hash": "DLAt5e4e8Nsm6xfaNRuuB9ZWQnAQMbFyinQX6ABpqWi3",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "2mAxoHtrkYx8RoMcVP4CpCBet6YJgh7KYCWhpKGyJN7F",
+        "id": "FKYKxqApeTBtm26GCYYs4Xp8UYSrH7xhRUpSmR7kQUW",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "7ActEfoBZ7R878YLKuYD73XquRMq8nUNLuSK7rERu326"
+          ],
+          "gas_burnt": 210277125000,
+          "tokens_burnt": "21027712500000000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "H7wHw2cRs5VrYT7LaYbhPLCMm6MP7pFuRixYYw4W68qY",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "FR6PgNXvFZeA3ZFRwjudPBcVCgYBCgt67j6Gx9z1iHVn",
+        "id": "7ActEfoBZ7R878YLKuYD73XquRMq8nUNLuSK7rERu326",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "BDF1GkAJ4N98GFnKZviPbAB3PJJf7bUFp1dxpCoZCBfr",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "FR6PgNXvFZeA3ZFRwjudPBcVCgYBCgt67j6Gx9z1iHVn",
+        "id": "7mqt2tnLJgPjBgsJYBxqQoZNcWFrB8Yej7B3J1d1Ah6R",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "Cqiach47Mjbavcq8YTUv7iC1aNXAZCnn3cCE1LqY17yf"
+          ],
+          "gas_burnt": 3238466943666,
+          "tokens_burnt": "323846694366600000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [],
+        "block_hash": "34wvgacAFyyNHbZR1bFycXi5xEoj5xqys9j4HhkqpGLd",
+        "id": "Cqiach47Mjbavcq8YTUv7iC1aNXAZCnn3cCE1LqY17yf",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "c33r4F5R4b4evVWbejwjBeA3rRVBvAMXz1yMpnjmkMG",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "2mAxoHtrkYx8RoMcVP4CpCBet6YJgh7KYCWhpKGyJN7F",
+        "id": "YLmhdALeZiaLdaC3mHCRRNs2W9CdaQgSDPAhEVaMnnh",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

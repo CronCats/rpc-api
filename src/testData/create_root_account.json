@@ -1,0 +1,85 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "kwsantiago.testnet",
+      "public_key": "ed25519:86KB5Po3ejASkWVakmmw9tMnYcqhJEMjXTnj4ps5vSbN",
+      "nonce": 4,
+      "receiver_id": "near-link.kwsantiago.testnet",
+      "actions": [
+        "CreateAccount",
+        {
+          "Transfer": {
+            "deposit": "100000000000000000000000000"
+          }
+        },
+        {
+          "AddKey": {
+            "public_key": "ed25519:JCfq9c2izauHiTGB4YRn1PYbwwnQHA7fkyiEfZMCdcFt",
+            "access_key": {
+              "nonce": 0,
+              "permission": "FullAccess"
+            }
+          }
+        }
+      ],
+      "signature": "ed25519:4mbsCbu2GtBR5r1ic57xNTiJ5SJMB53dhyHic2Ytw47g9VCNbXuezY8LJdLf6eXhxLNLVsnv4ob63p3TxryG7yGT",
+      "hash": "8EhNaDcGqJcYuCMgzSpcCCew1hjnLBk4ctRsP5Sn3LFq"
+    },
+    "transaction_outcome": {
+      "proof": [],
+      "block_hash": "7kf5HEuwgEQaJCPtu3PJgGXqmLtpytD57w9cZWKa5iZA",
+      "id": "8EhNaDcGqJcYuCMgzSpcCCew1hjnLBk4ctRsP5Sn3LFq",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "HooWgzL4x4n3WJQXDHb64Az7dnR8JU4BVGRZVAoqBhSw"
+        ],
+        "gas_burnt": 424555062500,
+        "tokens_burnt": "42455506250000000000",
+        "executor_id": "kwsantiago.testnet",
+        "status": {
+          "SuccessReceiptId": "HooWgzL4x4n3WJQXDHb64Az7dnR8JU4BVGRZVAoqBhSw"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [],
+        "block_hash": "BDngcqkwKNJd8WV9sYVbrY3ocSjpdejZgYC8Ex9faU6W",
+        "id": "HooWgzL4x4n3WJQXDHb64Az7dnR8JU4BVGRZVAoqBhSw",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "9BAmXkAtZzvCD8YFW72SAwLftKGeK3y7sUg8oyP9Ct7g"
+          ],
+          "gas_burnt": 424555062500,
+          "tokens_burnt": "42455506250000000000",
+          "executor_id": "near-link.kwsantiago.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [],
+        "block_hash": "Gk1jNLq3qvu4Hj6QrGQXZXuaTvjghQEcKKzrcXodHtNY",
+        "id": "9BAmXkAtZzvCD8YFW72SAwLftKGeK3y7sUg8oyP9Ct7g",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "kwsantiago.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

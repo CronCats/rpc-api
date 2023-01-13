@@ -1,0 +1,170 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "stakewars.testnet",
+      "public_key": "ed25519:98u4UWJLdLJLeAJX6QQLLUVsYMFUBqyVPcDY5sn5N1zv",
+      "nonce": 294,
+      "receiver_id": "rioblocks.pool.f863973.m0",
+      "actions": [
+        {
+          "FunctionCall": {
+            "method_name": "deposit_and_stake",
+            "args": "e30=",
+            "gas": 100000000000000,
+            "deposit": "75000000000000000000000000000"
+          }
+        }
+      ],
+      "signature": "ed25519:24MnQEHKTzhosc2Fn9PE1sCHXqrcvPB8Dw3jw2xBwd59bEi2DSbEbE5LhPVXFTjohoUGYkFKPArL36MRiwRpns16",
+      "hash": "HNHqsQSTZLSuuMe42VKzuL4zwAQKuQmMQJvECoJWwUSw"
+    },
+    "transaction_outcome": {
+      "proof": [],
+      "block_hash": "8AQDw6fP1pHzFKbfBg574P6axtwvEBVQeDx3FA9mUH4K",
+      "id": "HNHqsQSTZLSuuMe42VKzuL4zwAQKuQmMQJvECoJWwUSw",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "4xaUQpx5vb3a82MezCxdSGJ5Mr8Ps7crUcT1M6fbYGBY"
+        ],
+        "gas_burnt": 2427963482746,
+        "tokens_burnt": "242796348274600000000",
+        "executor_id": "stakewars.testnet",
+        "status": {
+          "SuccessReceiptId": "4xaUQpx5vb3a82MezCxdSGJ5Mr8Ps7crUcT1M6fbYGBY"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [],
+        "block_hash": "7KLXLawXu1kDC3nafQfKLBdBkDdaKNvpwxQeX9LLcR4X",
+        "id": "4xaUQpx5vb3a82MezCxdSGJ5Mr8Ps7crUcT1M6fbYGBY",
+        "outcome": {
+          "logs": [
+            "Epoch 42: Contract received total rewards of 1394298492229200000000 tokens. New total staked balance is 450001394298491229200000000. Total number of shares 450000139429459410347155043",
+            "Total rewards fee is 139429460410347155043 stake shares.",
+            "@stakewars.testnet deposited 75000000000000000000000000000. New unstaked balance is 75000000000000000000000000000",
+            "@stakewars.testnet staking 74999999999999999999999999999. Received 74999790855809384478802670311 new staking shares. Total 1 unstaked balance and 74999790855809384478802670311 staking shares",
+            "Contract total staked balance is 75450001394298491229200000000. Total number of shares 75449790995238843889149825354"
+          ],
+          "receipt_ids": [
+            "4M8kzeowECHVUnsA6x9ZJ3k95E93uQ8icQSnUsg69kXT",
+            "3AKh5JAbrgmszqTyAykEtBrKLBkXpPavCiRN4Teh4i1a",
+            "CaE8c2C5o7gEqxWjBHtnb96d5gSbSNaNqijgYgAiLQNG"
+          ],
+          "gas_burnt": 19952747526757,
+          "tokens_burnt": "1995274752675700000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "EUgCZpPq1gPePSCGAo9XNDzwkBwQ7yyH8ioeyirXKk2u",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "AS7yfKE73QV4VJrLWrSCEzewFs3V7HpneWtuboBrYuLc",
+        "id": "4M8kzeowECHVUnsA6x9ZJ3k95E93uQ8icQSnUsg69kXT",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "9sDNk1YMrSgbE5wwPzQMQv4zLERR2AGMxtXtTt7BR5xM"
+          ],
+          "gas_burnt": 210277125000,
+          "tokens_burnt": "21027712500000000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "G1Kd8MAD4xGRMUrin3fUpt3R98bzeTegYJEN61yXXAp7",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "AdJCokkiECocEiUE2gDoE3G5jSemQDxePBETLiKm9Uye",
+        "id": "9sDNk1YMrSgbE5wwPzQMQv4zLERR2AGMxtXtTt7BR5xM",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "stakewars.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "28hyLYPR5EkhduG9hiKuLRc3MbaWgabE3si4M7Npkajj",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "AdJCokkiECocEiUE2gDoE3G5jSemQDxePBETLiKm9Uye",
+        "id": "3AKh5JAbrgmszqTyAykEtBrKLBkXpPavCiRN4Teh4i1a",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "ApyfWmwrcCvciQf6szuBTGN9LERvVueS8StK4XStcmSD"
+          ],
+          "gas_burnt": 3238466943666,
+          "tokens_burnt": "323846694366600000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [],
+        "block_hash": "En3hctB8z15pMkBiruWPzWQ1yBt26caUWFPY53gKijuW",
+        "id": "ApyfWmwrcCvciQf6szuBTGN9LERvVueS8StK4XStcmSD",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "stakewars.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "EChCye27MZT71rvnikSxnAdL63xdQaKsgZgTqWRE74YP",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "AS7yfKE73QV4VJrLWrSCEzewFs3V7HpneWtuboBrYuLc",
+        "id": "CaE8c2C5o7gEqxWjBHtnb96d5gSbSNaNqijgYgAiLQNG",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "stakewars.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

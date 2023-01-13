@@ -1,0 +1,125 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "receipts": [
+      {
+        "predecessor_id": "in.testnet",
+        "receipt": {
+          "Action": {
+            "actions": [
+              {
+                "FunctionCall": {
+                  "args": "eyJwcm9wb3NhbCI6eyJkZXNjcmlwdGlvbiI6Im5vIHdoYWxlcyBhbGxvd2VkcyIsImtpbmQiOnsiUmVtb3ZlTWVtYmVyRnJvbVJvbGUiOnsibWVtYmVyX2lkIjoidC50ZXN0bmV0Iiwicm9sZSI6ImNvdW5jaWwifX19fQ==",
+                  "deposit": "1000000000000000000000000",
+                  "gas": 30000000000000,
+                  "method_name": "add_proposal"
+                }
+              }
+            ],
+            "gas_price": "122987387",
+            "input_data_ids": [],
+            "output_data_receivers": [],
+            "signer_id": "in.testnet",
+            "signer_public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE"
+          }
+        },
+        "receipt_id": "FZYmCTerPWUe9cXynhoMsXGjAQL41LWENsxWQ7TLQeUj",
+        "receiver_id": "dao.sputnikv2.testnet"
+      },
+      {
+        "predecessor_id": "system",
+        "receipt": {
+          "Action": {
+            "actions": [
+              {
+                "Transfer": {
+                  "deposit": "3458012655080629366288"
+                }
+              }
+            ],
+            "gas_price": "0",
+            "input_data_ids": [],
+            "output_data_receivers": [],
+            "signer_id": "in.testnet",
+            "signer_public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE"
+          }
+        },
+        "receipt_id": "DQ76bmmfYbyLQgMX8orGsAmP3oUdhTv7QRgkqhW4HrQx",
+        "receiver_id": "in.testnet"
+      }
+    ],
+    "receipts_outcome": [
+      {
+        "block_hash": "B71ZePk66SaMCYFG7MAxU5eiDfpEXhgU6kj7qZ9qHmLL",
+        "id": "FZYmCTerPWUe9cXynhoMsXGjAQL41LWENsxWQ7TLQeUj",
+        "outcome": {
+          "executor_id": "dao.sputnikv2.testnet",
+          "gas_burnt": 5302500134203,
+          "logs": [],
+          "receipt_ids": [
+            "DQ76bmmfYbyLQgMX8orGsAmP3oUdhTv7QRgkqhW4HrQx"
+          ],
+          "status": {
+            "SuccessValue": "OQ=="
+          },
+          "tokens_burnt": "530250013420300000000"
+        },
+        "proof": []
+      },
+      {
+        "block_hash": "2wLs4j7U397wk6SgdRzafW47tNAYXY9BmLE8eccFCdSp",
+        "id": "DQ76bmmfYbyLQgMX8orGsAmP3oUdhTv7QRgkqhW4HrQx",
+        "outcome": {
+          "executor_id": "in.testnet",
+          "gas_burnt": 223182562500,
+          "logs": [],
+          "receipt_ids": [],
+          "status": {
+            "SuccessValue": ""
+          },
+          "tokens_burnt": "0"
+        },
+        "proof": []
+      }
+    ],
+    "status": {
+      "SuccessValue": "OQ=="
+    },
+    "transaction": {
+      "actions": [
+        {
+          "FunctionCall": {
+            "args": "eyJwcm9wb3NhbCI6eyJkZXNjcmlwdGlvbiI6Im5vIHdoYWxlcyBhbGxvd2VkcyIsImtpbmQiOnsiUmVtb3ZlTWVtYmVyRnJvbVJvbGUiOnsibWVtYmVyX2lkIjoidC50ZXN0bmV0Iiwicm9sZSI6ImNvdW5jaWwifX19fQ==",
+            "deposit": "1000000000000000000000000",
+            "gas": 30000000000000,
+            "method_name": "add_proposal"
+          }
+        }
+      ],
+      "hash": "2ZeGfcfMPmsbpfy9CrnRHJ8i7g3rbq6Ls9XJDiGBW2Fc",
+      "nonce": 13,
+      "public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE",
+      "receiver_id": "dao.sputnikv2.testnet",
+      "signature": "ed25519:4A8dDiQSqeU29oh7wSj1Cij4dG4ADeY91fv3PCaWrbDrHNj9zsnyjPdBq4Mz6CWhyWmr7gUG5CJEESsQXninySvC",
+      "signer_id": "in.testnet"
+    },
+    "transaction_outcome": {
+      "block_hash": "57HAtUuvrbQGUNhbas6AUimgQKrAyBZpgEVN79Ta3frz",
+      "id": "2ZeGfcfMPmsbpfy9CrnRHJ8i7g3rbq6Ls9XJDiGBW2Fc",
+      "outcome": {
+        "executor_id": "in.testnet",
+        "gas_burnt": 2428225087024,
+        "logs": [],
+        "receipt_ids": [
+          "FZYmCTerPWUe9cXynhoMsXGjAQL41LWENsxWQ7TLQeUj"
+        ],
+        "status": {
+          "SuccessReceiptId": "FZYmCTerPWUe9cXynhoMsXGjAQL41LWENsxWQ7TLQeUj"
+        },
+        "tokens_burnt": "242822508702400000000"
+      },
+      "proof": []
+    }
+  },
+  "id": "dontcare"
+}

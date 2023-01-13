@@ -1,0 +1,68 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "mymasterpersona.testnet",
+      "public_key": "ed25519:4tpJLqXB3igTjgrVGDgTZwRUxVEfJychqKhNiBxeyNEN",
+      "nonce": 12,
+      "receiver_id": "mymasterpersona.testnet",
+      "actions": [
+        {
+          "DeleteKey": {
+            "public_key": "ed25519:9vrDcLYuKVmjTbLgNMURtxCQJDRQyDpGbogoHNkPs3EY"
+          }
+        }
+      ],
+      "signature": "ed25519:5XwrGaPHSenRcuANxae5rQhFceWDbzrKW96axLwwnZbjf3iW5fHsJ7NAkc4dhdAtct9BrGJ77cosCzQBbZz5CFR3",
+      "hash": "2AhbSU9LWaag63ZMY537RYDMXTbgChqJqhq4xqmFSdGG"
+    },
+    "transaction_outcome": {
+      "proof": [
+        {
+          "hash": "E3cFzfVjXoWSyWJ3oUj9HMSzx9fEuQ7fFJF9ohUr68BM",
+          "direction": "Right"
+        }
+      ],
+      "block_hash": "6eR2fDFLgeMB2mXjn9PG3nvxEpuEsMe28Q9NaHs6CP4T",
+      "id": "2AhbSU9LWaag63ZMY537RYDMXTbgChqJqhq4xqmFSdGG",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "B7Z3i8ZeCLN9PA5Kjm9CYURYm2bNCaSLF872Fpn5hoy2"
+        ],
+        "gas_burnt": 203006125000,
+        "tokens_burnt": "20300612500000000000",
+        "executor_id": "mymasterpersona.testnet",
+        "status": {
+          "SuccessReceiptId": "B7Z3i8ZeCLN9PA5Kjm9CYURYm2bNCaSLF872Fpn5hoy2"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [
+          {
+            "hash": "J3BJJMqLcti6LPpU4dYzpvywEWJ9uUUEeEQxrG8JLgfU",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "6eR2fDFLgeMB2mXjn9PG3nvxEpuEsMe28Q9NaHs6CP4T",
+        "id": "B7Z3i8ZeCLN9PA5Kjm9CYURYm2bNCaSLF872Fpn5hoy2",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 203006125000,
+          "tokens_burnt": "20300612500000000000",
+          "executor_id": "mymasterpersona.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

@@ -1,0 +1,140 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "receipts": [
+      {
+        "predecessor_id": "in.testnet",
+        "receipt": {
+          "Action": {
+            "actions": [
+              {
+                "FunctionCall": {
+                  "args": "eyJpZCI6OSwiYWN0aW9uIjoiVm90ZVJlamVjdCJ9",
+                  "deposit": "0",
+                  "gas": 250000000000000,
+                  "method_name": "act_proposal"
+                }
+              }
+            ],
+            "gas_price": "465088590",
+            "input_data_ids": [],
+            "output_data_receivers": [],
+            "signer_id": "in.testnet",
+            "signer_public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE"
+          }
+        },
+        "receipt_id": "BaXbAsn1GS32A2bgXi7JyZk9sQZ4bVPrGhE1LPdApTSt",
+        "receiver_id": "dao.sputnikv2.testnet"
+      },
+      {
+        "predecessor_id": "system",
+        "receipt": {
+          "Action": {
+            "actions": [
+              {
+                "Transfer": {
+                  "deposit": "116772269224909228508520"
+                }
+              }
+            ],
+            "gas_price": "0",
+            "input_data_ids": [],
+            "output_data_receivers": [],
+            "signer_id": "in.testnet",
+            "signer_public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE"
+          }
+        },
+        "receipt_id": "B8rd9tMCHdh6aDigwyWwmSA9opjg3b6wxKoH6UKE6uWm",
+        "receiver_id": "in.testnet"
+      }
+    ],
+    "receipts_outcome": [
+      {
+        "block_hash": "835wkp7fa3ac9LU2Uobz3iFHRyiksNztke1MVzm4xndu",
+        "id": "BaXbAsn1GS32A2bgXi7JyZk9sQZ4bVPrGhE1LPdApTSt",
+        "outcome": {
+          "executor_id": "dao.sputnikv2.testnet",
+          "gas_burnt": 6291203057226,
+          "logs": [],
+          "receipt_ids": [
+            "B8rd9tMCHdh6aDigwyWwmSA9opjg3b6wxKoH6UKE6uWm"
+          ],
+          "status": {
+            "SuccessValue": ""
+          },
+          "tokens_burnt": "629120305722600000000"
+        },
+        "proof": [
+          {
+            "direction": "Right",
+            "hash": "6tVatVuZpLZeV7LtebtTkNsLEWmKwR9tUDxz7Qmp2JB4"
+          }
+        ]
+      },
+      {
+        "block_hash": "8oQ8u7oMgQiVsgURSrbxDCcaF7662dQFa7xSgecByv2C",
+        "id": "B8rd9tMCHdh6aDigwyWwmSA9opjg3b6wxKoH6UKE6uWm",
+        "outcome": {
+          "executor_id": "in.testnet",
+          "gas_burnt": 223182562500,
+          "logs": [],
+          "receipt_ids": [],
+          "status": {
+            "SuccessValue": ""
+          },
+          "tokens_burnt": "0"
+        },
+        "proof": [
+          {
+            "direction": "Right",
+            "hash": "E7iGf6jcsX4wjV7nd4DW3DuHK1DH5dNxHQUy12BWgN6g"
+          }
+        ]
+      }
+    ],
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "actions": [
+        {
+          "FunctionCall": {
+            "args": "eyJpZCI6OSwiYWN0aW9uIjoiVm90ZVJlamVjdCJ9",
+            "deposit": "0",
+            "gas": 250000000000000,
+            "method_name": "act_proposal"
+          }
+        }
+      ],
+      "hash": "FVfCssA75WQjZqoTvXDF29PayQvbZ9ZEjxCF9VMeZ7io",
+      "nonce": 16,
+      "public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE",
+      "receiver_id": "dao.sputnikv2.testnet",
+      "signature": "ed25519:3BScEWfDvpVkmDGDEDtcRKigLSko4sa7x26dnxwQeDVZXBMfURVLwgrpjTqGdxVGfUPwVFGLW3BFyxfhC2PvMcPk",
+      "signer_id": "in.testnet"
+    },
+    "transaction_outcome": {
+      "block_hash": "5HkALE6dSUCL59Y9hoJ563v8PRqGu8wXQehJDpV8y6ih",
+      "id": "FVfCssA75WQjZqoTvXDF29PayQvbZ9ZEjxCF9VMeZ7io",
+      "outcome": {
+        "executor_id": "in.testnet",
+        "gas_burnt": 2428014909228,
+        "logs": [],
+        "receipt_ids": [
+          "BaXbAsn1GS32A2bgXi7JyZk9sQZ4bVPrGhE1LPdApTSt"
+        ],
+        "status": {
+          "SuccessReceiptId": "BaXbAsn1GS32A2bgXi7JyZk9sQZ4bVPrGhE1LPdApTSt"
+        },
+        "tokens_burnt": "242801490922800000000"
+      },
+      "proof": [
+        {
+          "direction": "Right",
+          "hash": "22epHvCofjhtQKZqJCUP1ySW11gyaJdVvSTCFjPvsCMv"
+        }
+      ]
+    }
+  },
+  "id": "dontcare"
+}

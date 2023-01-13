@@ -1,0 +1,89 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "t.testnet",
+      "public_key": "ed25519:CxrZ82LQjNqD8hvfwav7YAmLp7DTasSR7YExJuHhwjRN",
+      "nonce": 83,
+      "receiver_id": "narwhal.t.testnet",
+      "actions": [
+        {
+          "Transfer": {
+            "deposit": "500987000000000000000000000"
+          }
+        }
+      ],
+      "signature": "ed25519:4PUJAKj8kJ4hLXoVPtP3ojHuEAKwBEmJsZRr8CvSgJnDfo3Bvqrf5det4krTUfk17TVj4krcpr6Rwudzo9dBBRJR",
+      "hash": "F5ibmi8M56ndDAbFpA5KgM16s6KAaCzoZeDczcJDaKL2"
+    },
+    "transaction_outcome": {
+      "proof": [
+        {
+          "hash": "2M5yx958ALXb7Ck6RUaubSPm5TfK4p3of27GRvvhXRHQ",
+          "direction": "Right"
+        },
+        {
+          "hash": "9k1aefqbsGWeidUwrEhYtxxTLrrwQmYfGjLuHkLJYbAU",
+          "direction": "Right"
+        }
+      ],
+      "block_hash": "9ngEcEBigjYTCwX4Vp4TykN6zunjeDmc6pdDvsKK4GPh",
+      "id": "F5ibmi8M56ndDAbFpA5KgM16s6KAaCzoZeDczcJDaKL2",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "HF5EAmNhTJZa2CPh37s5YTCE3RWSnrQXGUkm6EL8xp6Y"
+        ],
+        "gas_burnt": 223182562500,
+        "tokens_burnt": "22318256250000000000",
+        "executor_id": "t.testnet",
+        "status": {
+          "SuccessReceiptId": "HF5EAmNhTJZa2CPh37s5YTCE3RWSnrQXGUkm6EL8xp6Y"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [
+          {
+            "hash": "H5vTvjGPrctNxQ7gLDbENGXBhdtsWaER4qxoBhYYJ7Vb",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "DCVUqE1YNNSWcishrA4ME2p2MBQifhRsTBcXytBRpvfR",
+        "id": "HF5EAmNhTJZa2CPh37s5YTCE3RWSnrQXGUkm6EL8xp6Y",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "BcQvCh1BKSGCYYgLVbTTauJjvvYaCs319aS75uFNYXjH"
+          ],
+          "gas_burnt": 223182562500,
+          "tokens_burnt": "22318256250000000000",
+          "executor_id": "narwhal.t.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [],
+        "block_hash": "73wwaMsSdWLvUAeF3nrn3t7HmYT68p38TG94RP9by2ru",
+        "id": "BcQvCh1BKSGCYYgLVbTTauJjvvYaCs319aS75uFNYXjH",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "t.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

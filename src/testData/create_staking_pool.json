@@ -1,0 +1,335 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": "dHJ1ZQ=="
+    },
+    "transaction": {
+      "signer_id": "rioblocks.testnet",
+      "public_key": "ed25519:22aKz9JmyHEe7Us31QU4fWcyu27rEdp3KLGFmheSyGfB",
+      "nonce": 2,
+      "receiver_id": "pool.f863973.m0",
+      "actions": [
+        {
+          "FunctionCall": {
+            "method_name": "create_staking_pool",
+            "args": "eyJzdGFraW5nX3Bvb2xfaWQiOiJyaW9ibG9ja3MiLCJvd25lcl9pZCI6InJpb2Jsb2Nrcy50ZXN0bmV0Iiwic3Rha2VfcHVibGljX2tleSI6ImVkMjU1MTk6Q0xRaUJoN2ZndHA1OFlEN2hRdWo4Z3I1V29XdWFjRmlNajlWeno5TWNwc1giLCJyZXdhcmRfZmVlX2ZyYWN0aW9uIjp7Im51bWVyYXRvciI6MTAsImRlbm9taW5hdG9yIjoxMDB9fQ==",
+            "gas": 300000000000000,
+            "deposit": "50000000000000000000000000"
+          }
+        }
+      ],
+      "signature": "ed25519:5Bxzp46rCYTQKdDdU8Y5gJEhNzAorQwqgqsfKJdJEzQUA2D4KV1M9da1BWJkG2w9XmEAmQhf247thNyCCFjBGCi1",
+      "hash": "BtBd6Gao3i8NkYCnwwaH4bwzoTutVweSdAWRfs6hQ5wi"
+    },
+    "transaction_outcome": {
+      "proof": [],
+      "block_hash": "89Fx95iYqoZvpzRwQr99hmv2hrWFSaynPpqfHpi9GFCb",
+      "id": "BtBd6Gao3i8NkYCnwwaH4bwzoTutVweSdAWRfs6hQ5wi",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "6TxrYiGbyHvcTMn5avjR2F85CJUQA6EqDUwo7mYqVZCD"
+        ],
+        "gas_burnt": 2428395018008,
+        "tokens_burnt": "242839501800800000000",
+        "executor_id": "rioblocks.testnet",
+        "status": {
+          "SuccessReceiptId": "6TxrYiGbyHvcTMn5avjR2F85CJUQA6EqDUwo7mYqVZCD"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [],
+        "block_hash": "5htBsNSn5juitT6r9ymttodDMJd2BPujQmtCUhFicRpX",
+        "id": "6TxrYiGbyHvcTMn5avjR2F85CJUQA6EqDUwo7mYqVZCD",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "Dz62v9JFabwZNrVLrFzTHyZGCBYjdVFFHBkS4EDtQd89",
+            "GMELJKpQerUYhYxUCoXdyGbxmJMLkBA76sR3Ua2yxBMk",
+            "54TqNcy2dbUPuNvH2V8CeY6tAS7mJe5rEVPZUbSVmjBF"
+          ],
+          "gas_burnt": 40008112195558,
+          "tokens_burnt": "4000811219555800000000",
+          "executor_id": "pool.f863973.m0",
+          "status": {
+            "SuccessReceiptId": "GMELJKpQerUYhYxUCoXdyGbxmJMLkBA76sR3Ua2yxBMk"
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "8beDVhwkSHhsLfkUJrCi5Q88Z2q3y7HnnXp7TZBytVXh",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "4PaVdoriec1Kx85C6scPAz7PGJM5nnoFb1H3qpj2J7Ve",
+        "id": "Dz62v9JFabwZNrVLrFzTHyZGCBYjdVFFHBkS4EDtQd89",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "8q9RK27muGpDofLECfKsjKB4bzTfJyeM9cm3GW6fK1Mb",
+            "BJbT1wdWAUKESfPJyR1G7H4DsL7bhHRUxSDh447HdP4V",
+            "32dm2KawKc18ZfEbnc5qgLDAqtvSugYgrppKwYiUSPxX"
+          ],
+          "gas_burnt": 17590517000203,
+          "tokens_burnt": "1759051700020300000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "HeXSgu8Mpqe4HTNNEQXDV2Qiekuk5xwHZSiGXtxQAEKe",
+            "direction": "Right"
+          },
+          {
+            "hash": "3kcGN3gZB3Y26q1KeffdutjnWEUh7gLe9s3eppXpYHNb",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "Ct7iaAV1pbyaMU1xH1YTJoDkFwevcjYR2eGFJZDxmdj2",
+        "id": "8q9RK27muGpDofLECfKsjKB4bzTfJyeM9cm3GW6fK1Mb",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "GWWG86jQycBxheUoY26JDBYhFqhojLPsyB8hFvQjtvkz"
+          ],
+          "gas_burnt": 210277125000,
+          "tokens_burnt": "21027712500000000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "Failure": {
+              "ActionError": {
+                "index": 0,
+                "kind": {
+                  "InsufficientStake": {
+                    "account_id": "rioblocks.pool.f863973.m0",
+                    "stake": "49999999999999000000000000",
+                    "minimum_stake": "7036629035514895580673674988"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "DXTTaYSiPgvsu4Yu6GSTZmtXmd9PsRz8UnnckpK21eUP",
+            "direction": "Right"
+          },
+          {
+            "hash": "DADrS7D6NC88dFCZEJLuvRSmSfVWpqoa857kMTVdKWyv",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "3YPzr8wce1aLRPRWi9f4xKHfSbKqKuhVNfDrw6qyAU6K",
+        "id": "GWWG86jQycBxheUoY26JDBYhFqhojLPsyB8hFvQjtvkz",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "6VNdwTQFyBUWeqeqHXgbZkrKg5WDiYwiWQ9p4dZWgUiu",
+            "direction": "Left"
+          },
+          {
+            "hash": "DADrS7D6NC88dFCZEJLuvRSmSfVWpqoa857kMTVdKWyv",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "3YPzr8wce1aLRPRWi9f4xKHfSbKqKuhVNfDrw6qyAU6K",
+        "id": "BJbT1wdWAUKESfPJyR1G7H4DsL7bhHRUxSDh447HdP4V",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "4ngGwHyuTwSr7WEZSJUBHnDi96AQvRpPoKSd3ufTyz1E"
+          ],
+          "gas_burnt": 3167124796536,
+          "tokens_burnt": "316712479653600000000",
+          "executor_id": "rioblocks.pool.f863973.m0",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "4gBvKL4uusKKNYwThtLKgeLhRsehKD1cbX1Bhvy4Ab1Y",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "HdYP8pKpciVvsbcnYBUXiLUVyBcWNDCbCf5TbjB6ktnb",
+        "id": "4ngGwHyuTwSr7WEZSJUBHnDi96AQvRpPoKSd3ufTyz1E",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "6RjFacgJDNKovTVEMP4TjD4C2FJKW2A7HiQm76R7JW7D",
+            "direction": "Left"
+          },
+          {
+            "hash": "3kcGN3gZB3Y26q1KeffdutjnWEUh7gLe9s3eppXpYHNb",
+            "direction": "Right"
+          }
+        ],
+        "block_hash": "Ct7iaAV1pbyaMU1xH1YTJoDkFwevcjYR2eGFJZDxmdj2",
+        "id": "32dm2KawKc18ZfEbnc5qgLDAqtvSugYgrppKwYiUSPxX",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "BYaLm7dMipSTsputzxihwKXmUFK3G8RVdjk6SG8fYAeQ",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "Ct7iaAV1pbyaMU1xH1YTJoDkFwevcjYR2eGFJZDxmdj2",
+        "id": "GMELJKpQerUYhYxUCoXdyGbxmJMLkBA76sR3Ua2yxBMk",
+        "outcome": {
+          "logs": [
+            "The staking pool @rioblocks.pool.f863973.m0 was successfully created. Whitelisting..."
+          ],
+          "receipt_ids": [
+            "EVZSUSNycARCSrHqXWcmL5zFPS73mo3aWMHa3DHGg4t2",
+            "DbnLdR5BNQdNWN3kv5XJcNW2KLUuUxLoR2fF6wBUqf1g"
+          ],
+          "gas_burnt": 6014402063347,
+          "tokens_burnt": "601440206334700000000",
+          "executor_id": "pool.f863973.m0",
+          "status": {
+            "SuccessReceiptId": "EVZSUSNycARCSrHqXWcmL5zFPS73mo3aWMHa3DHGg4t2"
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "AhTNxfSqefhitEosotHkQxbvCLnA3DtM3aRLiXnuUp8D",
+            "direction": "Right"
+          },
+          {
+            "hash": "HmVwwvybdX2ktd6uYRW6JXWbT6DdbwmnRQPcjmeaXCCi",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "3YPzr8wce1aLRPRWi9f4xKHfSbKqKuhVNfDrw6qyAU6K",
+        "id": "EVZSUSNycARCSrHqXWcmL5zFPS73mo3aWMHa3DHGg4t2",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [
+            "7Jn24anMTvbSyR4JiEwYLM6WTPuuXqaUjRLu9ugQjwrC"
+          ],
+          "gas_burnt": 4898021057699,
+          "tokens_burnt": "489802105769900000000",
+          "executor_id": "whitelist.f863973.m0",
+          "status": {
+            "SuccessValue": "dHJ1ZQ=="
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "H2GqwkmNRJy2g8bPZ3z4PFyJMs5EaNzAajsT4noxMNRF",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "HdYP8pKpciVvsbcnYBUXiLUVyBcWNDCbCf5TbjB6ktnb",
+        "id": "7Jn24anMTvbSyR4JiEwYLM6WTPuuXqaUjRLu9ugQjwrC",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "777UiD36WdpsJdfsGFQsVhLSCsa2LxQfnE38TPKT4eko",
+            "direction": "Left"
+          },
+          {
+            "hash": "HmVwwvybdX2ktd6uYRW6JXWbT6DdbwmnRQPcjmeaXCCi",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "3YPzr8wce1aLRPRWi9f4xKHfSbKqKuhVNfDrw6qyAU6K",
+        "id": "DbnLdR5BNQdNWN3kv5XJcNW2KLUuUxLoR2fF6wBUqf1g",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [
+          {
+            "hash": "4wWdGuNsnJebraBsxBBqwVQ5kPSB9Q7QhPHFp1ZjtSkU",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "4PaVdoriec1Kx85C6scPAz7PGJM5nnoFb1H3qpj2J7Ve",
+        "id": "54TqNcy2dbUPuNvH2V8CeY6tAS7mJe5rEVPZUbSVmjBF",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "rioblocks.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}

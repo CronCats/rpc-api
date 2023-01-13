@@ -1,0 +1,125 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "receipts": [
+      {
+        "predecessor_id": "in.testnet",
+        "receipt": {
+          "Action": {
+            "actions": [
+              {
+                "FunctionCall": {
+                  "args": "eyJwcm9wb3NhbCI6eyJkZXNjcmlwdGlvbiI6InRoYW5rcyBmb3IgYmVpbmcgaGVyZSIsImtpbmQiOnsiVHJhbnNmZXIiOnsidG9rZW5faWQiOiIiLCJyZWNlaXZlcl9pZCI6InQudGVzdG5ldCIsImFtb3VudCI6IjEzMzcwMDAwMDAwMDAwMDAwMDAwMDAwMDAifX19fQ==",
+                  "deposit": "1000000000000000000000000",
+                  "gas": 30000000000000,
+                  "method_name": "add_proposal"
+                }
+              }
+            ],
+            "gas_price": "122987387",
+            "input_data_ids": [],
+            "output_data_receivers": [],
+            "signer_id": "in.testnet",
+            "signer_public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE"
+          }
+        },
+        "receipt_id": "7SGU4TAsXQYbY84o8e1tYTQ7rdqkLCyFT4UFDALpTRS6",
+        "receiver_id": "dao.sputnikv2.testnet"
+      },
+      {
+        "predecessor_id": "system",
+        "receipt": {
+          "Action": {
+            "actions": [
+              {
+                "Transfer": {
+                  "deposit": "3455101034306993806654"
+                }
+              }
+            ],
+            "gas_price": "0",
+            "input_data_ids": [],
+            "output_data_receivers": [],
+            "signer_id": "in.testnet",
+            "signer_public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE"
+          }
+        },
+        "receipt_id": "7xdmrMrwpVTpFdm8SiQZzZZFakKPJmeG4EPFBc5jJ9G2",
+        "receiver_id": "in.testnet"
+      }
+    ],
+    "receipts_outcome": [
+      {
+        "block_hash": "H4TaqGAWjsY3UtGkncBovba8bzqy6DKRixgAHDwinrLi",
+        "id": "7SGU4TAsXQYbY84o8e1tYTQ7rdqkLCyFT4UFDALpTRS6",
+        "outcome": {
+          "executor_id": "dao.sputnikv2.testnet",
+          "gas_burnt": 5331690589693,
+          "logs": [],
+          "receipt_ids": [
+            "7xdmrMrwpVTpFdm8SiQZzZZFakKPJmeG4EPFBc5jJ9G2"
+          ],
+          "status": {
+            "SuccessValue": "Nw=="
+          },
+          "tokens_burnt": "533169058969300000000"
+        },
+        "proof": []
+      },
+      {
+        "block_hash": "Fe7vznu3jHjCaWVebCTYh3795LQwmqS1xfiteBkTAfWg",
+        "id": "7xdmrMrwpVTpFdm8SiQZzZZFakKPJmeG4EPFBc5jJ9G2",
+        "outcome": {
+          "executor_id": "in.testnet",
+          "gas_burnt": 223182562500,
+          "logs": [],
+          "receipt_ids": [],
+          "status": {
+            "SuccessValue": ""
+          },
+          "tokens_burnt": "0"
+        },
+        "proof": []
+      }
+    ],
+    "status": {
+      "SuccessValue": "Nw=="
+    },
+    "transaction": {
+      "actions": [
+        {
+          "FunctionCall": {
+            "args": "eyJwcm9wb3NhbCI6eyJkZXNjcmlwdGlvbiI6InRoYW5rcyBmb3IgYmVpbmcgaGVyZSIsImtpbmQiOnsiVHJhbnNmZXIiOnsidG9rZW5faWQiOiIiLCJyZWNlaXZlcl9pZCI6InQudGVzdG5ldCIsImFtb3VudCI6IjEzMzcwMDAwMDAwMDAwMDAwMDAwMDAwMDAifX19fQ==",
+            "deposit": "1000000000000000000000000",
+            "gas": 30000000000000,
+            "method_name": "add_proposal"
+          }
+        }
+      ],
+      "hash": "EE6SMeCDnkG2WVvYnHfZgi1gSZiQ47GFDa8p9AdJwJaT",
+      "nonce": 10,
+      "public_key": "ed25519:4xqv9G8Fc4CPQK6pmyiSnLVjbpw8WGbzTBJjriyWRHoE",
+      "receiver_id": "dao.sputnikv2.testnet",
+      "signature": "ed25519:492dGqScnczUfavPbywVhXXECs4vznqKawNJV5rE2BvZChV6zF5etKHqsg184eBEUoMMZjyMgZiRBP5XbNqw5DYN",
+      "signer_id": "in.testnet"
+    },
+    "transaction_outcome": {
+      "block_hash": "GJmSM6KMijVQQc2Xy6TLj93P7gmWTT6YqrtGUrT6vzau",
+      "id": "EE6SMeCDnkG2WVvYnHfZgi1gSZiQ47GFDa8p9AdJwJaT",
+      "outcome": {
+        "executor_id": "in.testnet",
+        "gas_burnt": 2428285457242,
+        "logs": [],
+        "receipt_ids": [
+          "7SGU4TAsXQYbY84o8e1tYTQ7rdqkLCyFT4UFDALpTRS6"
+        ],
+        "status": {
+          "SuccessReceiptId": "7SGU4TAsXQYbY84o8e1tYTQ7rdqkLCyFT4UFDALpTRS6"
+        },
+        "tokens_burnt": "242828545724200000000"
+      },
+      "proof": []
+    }
+  },
+  "id": "dontcare"
+}

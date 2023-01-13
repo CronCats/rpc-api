@@ -1,0 +1,95 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": {
+      "SuccessValue": ""
+    },
+    "transaction": {
+      "signer_id": "std_reference_basic.price_oracle.testnet",
+      "public_key": "ed25519:6MGgbuMq988iLgmFdqEiSDjuxB9bVyFQkqBy7iUGdvUs",
+      "nonce": 2685,
+      "receiver_id": "std_reference_basic.price_oracle.testnet",
+      "actions": [
+        {
+          "FunctionCall": {
+            "method_name": "relay",
+            "args": "eyJzeW1ib2xzIjpbIkJUQyIsIkVUSCIsIlhSUCIsIkJDSCIsIkxUQyIsIlBCVEMiXSwicmF0ZXMiOlsiMjM3OTg2MDQ4MjUwMDAiLCI2NDk0MzAwMDAwMDAiLCI1NzMxODgwMDAiLCIzNTY1ODAwMDAwMDAiLCIxMTYyMjUwMDAwMDAiLCIyNTM1ODE4MzIwMDAwMCJdLCJyZXNvbHZlX3RpbWVzIjpbMTYwODQ5ODg4NTAwMDAwMDAwMCwxNjA4NDk4ODg1MDAwMDAwMDAwLDE2MDg0OTg4ODUwMDAwMDAwMDAsMTYwODQ5ODg4NTAwMDAwMDAwMCwxNjA4NDk4ODg1MDAwMDAwMDAwLDE2MDg0OTg4MzcwMDAwMDAwMDBdLCJyZXF1ZXN0X2lkcyI6WzM0NTU4MCwzNDU1ODAsMzQ1NTgwLDM0NTU4MCwzNDU1ODAsMzQ1NTczXX0=",
+            "gas": 100000000000000,
+            "deposit": "0"
+          }
+        }
+      ],
+      "signature": "ed25519:3syzTEZ22E1USX6g4fUEG1sYdBerkyhZWSpGKuHSkERoYjibHG9k7ktKSMkVjJPHMQKrhz7NgWnC9T8xfx5A9FmA",
+      "hash": "9eESRnvrAMuyzQWPLnSiGa9YA7kSk2NzvjXm1y5ikLY2"
+    },
+    "transaction_outcome": {
+      "proof": [
+        {
+          "hash": "6aMiYjdY9EQdDs4yHu7h6AMJ2eW2ex3AvcxNvTzN6sy",
+          "direction": "Right"
+        }
+      ],
+      "block_hash": "9Q9Z59bfjK2FihM2p4JXqXogFTSr2QJJnjojzoDppaE8",
+      "id": "9eESRnvrAMuyzQWPLnSiGa9YA7kSk2NzvjXm1y5ikLY2",
+      "outcome": {
+        "logs": [],
+        "receipt_ids": [
+          "E4uXFjYamBU6dUiMyVztjrSSGgtK967SaxbSVxGc2MQ"
+        ],
+        "gas_burnt": 2428708048768,
+        "tokens_burnt": "242870804876800000000",
+        "executor_id": "std_reference_basic.price_oracle.testnet",
+        "status": {
+          "SuccessReceiptId": "E4uXFjYamBU6dUiMyVztjrSSGgtK967SaxbSVxGc2MQ"
+        }
+      }
+    },
+    "receipts_outcome": [
+      {
+        "proof": [
+          {
+            "hash": "6nN9cKUWeUFysTQDAT9MPuRoUJzQq9Vyhw5hqDg8YvMM",
+            "direction": "Left"
+          }
+        ],
+        "block_hash": "9Q9Z59bfjK2FihM2p4JXqXogFTSr2QJJnjojzoDppaE8",
+        "id": "E4uXFjYamBU6dUiMyVztjrSSGgtK967SaxbSVxGc2MQ",
+        "outcome": {
+          "logs": [
+            "relay: BTC,23798604825000,1608498885000000000,345580",
+            "relay: ETH,649430000000,1608498885000000000,345580",
+            "relay: XRP,573188000,1608498885000000000,345580",
+            "relay: BCH,356580000000,1608498885000000000,345580",
+            "relay: LTC,116225000000,1608498885000000000,345580",
+            "relay: PBTC,25358183200000,1608498837000000000,345573"
+          ],
+          "receipt_ids": [
+            "DA5y2RCLcpqeJ1zj71XsKrnyUoR31UtwzkgZ9wG2LiU7"
+          ],
+          "gas_burnt": 9202228917409,
+          "tokens_burnt": "920222891740900000000",
+          "executor_id": "std_reference_basic.price_oracle.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      },
+      {
+        "proof": [],
+        "block_hash": "GGv7LYp7nX9maW32wGhn1JN12ynpQd7634TEyBoA5LqM",
+        "id": "DA5y2RCLcpqeJ1zj71XsKrnyUoR31UtwzkgZ9wG2LiU7",
+        "outcome": {
+          "logs": [],
+          "receipt_ids": [],
+          "gas_burnt": 0,
+          "tokens_burnt": "0",
+          "executor_id": "std_reference_basic.price_oracle.testnet",
+          "status": {
+            "SuccessValue": ""
+          }
+        }
+      }
+    ]
+  },
+  "id": "dontcare"
+}
