@@ -1,10 +1,14 @@
+import agent from './resolvers/agent'
 import manager from './resolvers/manager'
 import system from './resolvers/system'
+import task from './resolvers/task'
 
 const resolvers = {
   Query: {
+    ...(agent.Query ? agent.Query : null),
     ...(manager.Query ? manager.Query : null),
     ...(system.Query ? system.Query : null),
+    ...(task.Query ? task.Query : null),
   },
 
   // Mutation: {
