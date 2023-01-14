@@ -5,7 +5,7 @@ import { config } from '../../config'
 export default {
   Query: {
     async agents() {
-      // const managerContractAddr = config[process.env.NODE_ENV].juno.manager
+      // const managerContractAddr = config[process.env.NETWORK_ENV].juno.manager
       return []
     },
   },

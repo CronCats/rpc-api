@@ -5,12 +5,12 @@ import { config } from '../../config'
 export default {
   Query: {
     async tasks() {
-      // const managerContractAddr = config[process.env.NODE_ENV].juno.manager
+      // const managerContractAddr = config[process.env.NETWORK_ENV].juno.manager
       return []
     },
     async task(root, args) {
       if (!args.task_hash) return
-      // const managerContractAddr = config[process.env.NODE_ENV].juno.manager
+      // const managerContractAddr = config[process.env.NETWORK_ENV].juno.manager
       return {}
     },
   },

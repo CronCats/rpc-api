@@ -5,7 +5,7 @@ import { config } from '../../config'
 export default {
   Query: {
     async managerConfig() {
-      const managerContractAddr = config[process.env.NODE_ENV].juno.manager
+      const managerContractAddr = config[process.env.NETWORK_ENV].juno.manager
       // const managerContractAddr = 'juno1ds4zngqcmaxyxp39zp40lphsezwu553mr5m2jtnxykpuu6z5g03sm9zqqu'
       console.log('managerContractAddr', managerContractAddr);
       const startBlock = '669130'
